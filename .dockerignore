@@ -1,0 +1,16 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment files
+.venv/
+
+# Ignore local config and environment files
+.env
+.vscode/
+.idea/
+
+# Ignore Docker files that shouldn't be copied
+Dockerfile
+docker-compose.yml
